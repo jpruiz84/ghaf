@@ -23,7 +23,9 @@
     };
     nixos-hardware.url = "github:nixos/nixos-hardware";
     microvm = {
-      url = "github:astro/microvm.nix";
+      # url = "github:astro/microvm.nix";
+      # Wait for https://github.com/astro/microvm.nix/pull/90
+      url = "/home/mika/microvm.nix";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
     };

@@ -3,10 +3,16 @@
 {
   self,
   netvm,
+  elinksvm,
 }: {config, ...}: {
   microvm.host.enable = true;
 
   microvm.vms."${netvm}" = {
+    flake = self;
+    autostart = true;
+  };
+
+  microvm.vms."${elinksvm}" = {
     flake = self;
     autostart = true;
   };

@@ -22,17 +22,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1681145470,
-        "narHash": "sha256-itLorj8DoWqXGZ4xiMF4xDngSauh8nLeuvHRKikUinQ=",
-        "owner": "anduril",
-        "repo": "jetpack-nixos",
-        "rev": "1be14a537f36d46774fd09e98fbf52b7747cc525",
-        "type": "github"
+        "lastModified": 1682786106,
+        "narHash": "sha256-90WzJR5hkXF2nnHk5qPjbcBbhayf/z+fUyqYD9s7Fss=",
+        "ref": "refs/heads/r35.3.1",
+        "rev": "6a06d909f9d63e5fbb03f282f31cbf844ebed403",
+        "revCount": 162,
+        "type": "git",
+        "url": "file:///home/mika/jetpack-nixos"
       },
       "original": {
-        "owner": "anduril",
-        "repo": "jetpack-nixos",
-        "type": "github"
+        "type": "git",
+        "url": "file:///home/mika/jetpack-nixos"
       }
     },
     "microvm": {

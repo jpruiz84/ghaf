@@ -28,7 +28,11 @@
       inputs.flake-utils.follows = "flake-utils";
     };
     jetpack-nixos = {
-      url = "github:anduril/jetpack-nixos";
+      # url = "github:anduril/jetpack-nixos";
+      # url = "danielfullmer/r35.3.1";
+      # TODO: Set to mainline r35.3.1 when ready
+      # This path contains danielfullmer/r35.3.1 rebased on top of latest master
+      url = "/home/mika/jetpack-nixos";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };

@@ -65,5 +65,9 @@
 
       # Hydra jobs
       (import ./hydrajobs.nix {inherit self;})
+
+      {
+        lib = import ./lib {inherit self nixpkgs;};
+      }
     ];
 }

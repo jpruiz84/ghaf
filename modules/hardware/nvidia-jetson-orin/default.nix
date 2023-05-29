@@ -58,9 +58,7 @@
     ./partition-template.nix
   ];
 
-  # Passthrough Jetson Orin WiFi card
   boot.kernelParams = [
-    "vfio-pci.ids=10ec:c82f"
     "vfio_iommu_type1.allow_unsafe_interrupts=1"
   ];
 }

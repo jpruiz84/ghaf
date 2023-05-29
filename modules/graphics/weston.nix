@@ -22,6 +22,8 @@
     chromium
     element-desktop
     gala-app
+
+    networkmanagerapplet
   ];
 
   # Next 4 services/targets are taken from official weston documentation:

@@ -43,13 +43,6 @@
       .extendModules {
         modules = [
           {
-            microvm.devices = [
-              {
-                bus = "pci";
-                path = "0001:01:00.0";
-              }
-            ];
-
             # For WLAN firmwares
             hardware.enableRedistributableFirmware = true;
 

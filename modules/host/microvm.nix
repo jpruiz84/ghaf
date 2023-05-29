@@ -4,10 +4,10 @@
   self,
   netvm,
 }: {config, ...}: {
-  microvm.host.enable = true;
+  # microvm.host.enable = true;
 
-  microvm.vms."${netvm}" = {
-    flake = self;
-    autostart = true;
-  };
+  # microvm.vms."${netvm}" = {
+  #   flake = self;
+  #   autostart = true;
+  # };
 }

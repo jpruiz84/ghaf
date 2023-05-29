@@ -39,6 +39,10 @@
         [launcher]
         path=${pkgs.gala-app}/bin/gala --enable-features=UseOzonePlatform --ozone-platform=wayland
         icon=${pkgs.gala-app}/gala/resources/icon-24x24.png
+
+        # [launcher]
+        # path=${pkgs.networkmanagerapplet}/bin/nm-connection-editor
+        # icon=${pkgs.networkmanagerapplet}/share/icons/hicolor/48x48/apps/nm-device-wireless.png
       ''
       + lib.optionalString (pkgs.stdenv.isAarch64) ''
         [launcher]

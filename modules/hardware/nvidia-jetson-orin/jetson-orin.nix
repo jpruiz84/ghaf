@@ -53,6 +53,10 @@ in
 
       nixpkgs.hostPlatform.system = "aarch64-linux";
 
+      hardware.enableRedistributableFirmware = true;
+      hardware.enableAllFirmware = true;
+      nixpkgs.config.allowUnfree = true;
+
       ghaf.boot.loader.systemd-boot-dtb.enable = true;
 
       boot.loader = {

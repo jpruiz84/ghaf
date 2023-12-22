@@ -18,6 +18,7 @@ in
         enableIPv6 = false;
         useNetworkd = true;
         interfaces.virbr0.useDHCP = false;
+        networkmanager.enable = true;
       };
 
       systemd.network = {

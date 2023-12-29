@@ -7,10 +7,10 @@
   inputs,
   ...
 }: let
-  inherit (inputs) jetpack-nixos lanzaboote microvm nixos-generators nixos-hardware nixpkgs;
+  inherit (inputs) vscode-server jetpack-nixos lanzaboote microvm nixos-generators nixos-hardware nixpkgs;
 in
   lib.foldr lib.recursiveUpdate {} [
-    (import ./nvidia-jetson-orin {inherit lib nixpkgs nixos-generators microvm jetpack-nixos;})
+    (import ./nvidia-jetson-orin {inherit lib nixpkgs nixos-generators microvm jetpack-nixos vscode-server;})
     (import ./vm.nix {inherit lib nixos-generators microvm;})
     (import ./generic-x86_64.nix {inherit lib nixos-generators microvm;})
     (import ./lenovo-x1-carbon.nix {inherit lib nixos-generators microvm lanzaboote;})

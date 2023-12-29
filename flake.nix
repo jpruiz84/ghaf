@@ -136,6 +136,10 @@
         flake-compat.follows = "flake-compat";
       };
     };
+
+    vscode-server = {
+      url = "github:nix-community/nixos-vscode-server";
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}: let

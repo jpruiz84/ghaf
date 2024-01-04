@@ -37,6 +37,11 @@ in
           # Performance testing
           speedtest-cli
           iperf
+
+          git
+          pinentry
+          gnupg
+          vim
         ]
         ++
         # LuaJIT (which is sysbench dependency) not available on RISC-V

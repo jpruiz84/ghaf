@@ -25,6 +25,12 @@
     networking.hostName = "ghaf-host";
     system.stateVersion = lib.trivial.release;
 
+    # /dev/nvme0n1p1 partition with Nvidia sources code
+    fileSystems."/mnt" = {
+      device = "/dev/disk/by-uuid/a239377b-5ff1-4d8d-9159-14ab92493ad8";
+      fsType = "ext4";
+    };
+
     ####
     # temp means to reduce the image size
     # TODO remove this when the minimal config is defined

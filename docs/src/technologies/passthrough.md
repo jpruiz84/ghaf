@@ -16,3 +16,4 @@ Our current supported passthrough devices implementations:
 - [NVIDIA Jetson AGX Orin: PCIe Passthrough](nvidia_agx_pt_pcie.md)
 - [Generic x86: PCIe Passthrough on crosvm](x86_pcie_crosvm.md)
 - [NVIDIA Jetson: UARTI passthrough to Net-CM](nvidia_uarti_net_vm.md)
+- [Device tree overlays for passthrough](device_tree_overlays_pt.md)

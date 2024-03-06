@@ -31,10 +31,10 @@ This declaration includes:
 - Microvm disable default serial console, to add virtual pci-serial console.
 - Binding service (bindSerial31d0000) for the 31d0000.serial in order to 
   bind this device to the VFIO driver to make it available to Microvm.
-- Kernel patch for the host device tree, to assign an IOMMU to the 31d0000.serial 
-  device, and also a dummy driver.
 - Kernel patch to add a custom device tree (dtb) source code for the
   Net-VM.
+- Device tree overlay to host device tree to assign an IOMMU to the 31d0000.serial 
+  device, and also a dummy driver
 
 Note: due the Linux kernel is not able to use the console in two UART ports
 of the same kind, a virtual pci-serial console was used as qemu console output.

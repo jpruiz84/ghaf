@@ -133,7 +133,7 @@ hardware.deviceTree.overlays = [
 ];
 ```
 
-Also, in [jetson-orin.nix](modules/hardware/nvidia-jetson-orin/jetson-orin.nix) the 
+Also, in [jetson-orin.nix](../../../modules/jetpack/nvidia-jetson-orin/jetson-orin.nix) the 
 *dtboBuildExtraIncludePaths* is defined with the path needed to include 
 the *tegra234-smmu-streamid.h* header file.
 
@@ -148,4 +148,4 @@ hardware.deviceTree =
 }
 ```
 
-You can find this full implementation in: [uarti-net-vm](../../../modules/hardware/nvidia-jetson-orin/virtualization/passthrough/uarti-net-vm)
+You can find this full implementation in: [uarti-net-vm](../../../modules/jetpack/nvidia-jetson-orin/virtualization/passthrough/uarti-net-vm/default.nix)

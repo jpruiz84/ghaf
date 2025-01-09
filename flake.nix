@@ -116,7 +116,7 @@
 
     jetpack-nixos = {
       #url = "github:anduril/jetpack-nixos
-      url = "github:tiiuae/jetpack-nixos/e894b0c574a12ce31cc2f49200f6d8cee13ceffd";
+      url = "github:tiiuae/jetpack-nixos/cd41802285d7f4a98b65c5192dabb5c3860f2cb7"; # Kernel 6.12.5
       #url = "github:anduril/jetpack-nixos/793716c1ca29a1be6d9bea84296a933c4acdddc1";
       #inputs.nixpkgs.follows = "nixpkgs";
     };

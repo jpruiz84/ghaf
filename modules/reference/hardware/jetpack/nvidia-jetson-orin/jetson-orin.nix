@@ -116,7 +116,7 @@ in
       # Versions of the device tree without PCI passthrough related
       # modifications.
       // lib.optionalAttrs (cfg.somType == "agx") {
-        name = lib.mkDefault "tegra234-p3737-0000+p3701-0000.dtb";
+        name = lib.mkDefault "tegra234-p3737-0000+p3701-0000-nv.dtb";
       }
       // lib.optionalAttrs (cfg.somType == "nx") {
         # Sake of clarity: Jetson 35.4 and IO BASE B carrier board
@@ -127,7 +127,7 @@ in
         # Upstream kernel has only official carrier board device tree,
         # but it works with IO BASE B carrier board with minor
         # modifications.
-        name = lib.mkDefault "tegra234-p3768-0000+p3767-0000.dtb";
+        name = lib.mkDefault "tegra234-p3768-0000+p3767-0000-nv.dtb";
       };
   };
 }

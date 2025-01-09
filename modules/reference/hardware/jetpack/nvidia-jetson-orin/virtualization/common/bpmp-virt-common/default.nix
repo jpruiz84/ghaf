@@ -35,8 +35,12 @@ in
         patch = ./patches/0002-vfio_platform-reset-required-false.patch;
       }
       {
-        name = "Add bpmp-virt modules";
-        patch = ./patches/0001-Add-bpmp-virt-modules.patch;
+        name = "Add bpmp-virt module sources";
+        patch = ./patches/0001-bpmp-add-bpmp-virt-module-sources.patch;
+      }
+      {
+        name = "Add bpmp-virt modules support";
+        patch = ./patches/0001-bpmp-support-bpmp-virt.patch;
       }
       {
         name = "Bpmp-host: allows all domains";

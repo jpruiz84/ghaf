@@ -69,8 +69,8 @@ let
 
               hardware.nvidia = {
                 # TODO: BPMP patches require fixing (jetson 36.3 + linux 6.6)
-                virtualization.enable = true;
-                virtualization.host.bpmp.enable = true;
+                virtualization.enable = false;
+                virtualization.host.bpmp.enable = false;
                 passthroughs.host.uarta.enable = false;
                 passthroughs.uarti_net_vm.enable = false;
               };

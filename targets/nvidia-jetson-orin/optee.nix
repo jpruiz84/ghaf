@@ -29,7 +29,7 @@ _:
           else
             throw "Mismatching OP-TEE sources";
 
-        sha256 = "sha256-hxgXRNtyZlfFMK8+3vVNxg2O1yrLJTFiFyjnE8Gmqqs=";
+        sha256 = "sha256-YIkONwvQ3PYF12PcGlX+C4/wlo4n12rrQI3PLnK408k=";
       };
       patches = [ ./0001-ta-pkcs11-Build-time-option-for-controlling-pin-lock.patch ];
     };
